@@ -1,0 +1,24 @@
+package home.balda.etl
+
+import java.util
+
+import org.apache.kafka.clients.producer.ProducerConfig
+
+/**
+  * Created by katia on 21/07/2017.
+  */
+object ETLConfig {
+
+  val ETL_KAFKA_TOPIC = "ETL_ETL_KAFKA_TOPIC"
+  val ETL_KAFKA_BROKER = "ETL_KAFKA_BROKER"
+  val ETL_BATCH_DURATION = "ETL_BATCH_DURATION"
+  val ETL_DEST_FOLDER = "ETL_DEST_FOLDER"
+  val ETL_SOURCE_FOLDER = "ETL_SOURCE_FOLDER"
+  val ETL_STATUS_PREFIX = "ETL_STATUS_PREFIX"
+  val ETL_STATUS_SUFIX = "ETL_STATUS_SUFIX"
+  val ETL_STATUS_DELIMITER = "ETL_STATUS_DELIMITER"
+  val ETL_DATA_PREFIX = "ETL_DATA_PREFIX"
+  val ETL_DATA_SUFIX = "ETL_DATA_SUFIX"
+  val ETL_GENERATOR_PERIOD = "ETL_GENERATOR_PERIOD"
+  val ETL_GENERATOR_DELAY = "ETL_GENERATOR_DELAY"
+}
