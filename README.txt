@@ -1,4 +1,4 @@
-Project for assignment:
+Project assignment:
 
 In this assignment you are asked to build a working ETL process using Scala programming language.
 
@@ -35,3 +35,18 @@ Implementation limitation:
 
 To clean,compile,package or/and execute app use maven goals:
 clean compile package exec
+
+Change below application arguments in pom.xml to relevant
+
+        <kafka.topic>test</kafka.topic>
+        <kafka.broker>10.100.102.2:9092</kafka.broker>
+        <batch.duration.sec>30</batch.duration.sec>
+        <destination.folder>hdfs://localhost:9000/testin/</destination.folder>
+        <source.folder>file:///Users/katia/testin/</source.folder>
+        <status.file.prefix>stat</status.file.prefix>
+        <status.file.sufix>txt</status.file.sufix>
+        <status.file.delimiter> </status.file.delimiter>
+        <data.file.prefix>data</data.file.prefix>
+        <data.file.sufix>csv</data.file.sufix>
+        <sorce.generator.period.sec>10</sorce.generator.period.sec>
+        <sorce.generator.delay.sec>10</sorce.generator.delay.sec>
