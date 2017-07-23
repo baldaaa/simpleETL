@@ -9,7 +9,7 @@ import org.apache.kafka.clients.producer.ProducerConfig
   */
 object ETLConfig {
 
-  val ETL_KAFKA_TOPIC = "ETL_ETL_KAFKA_TOPIC"
+  val ETL_KAFKA_TOPIC = "ETL_KAFKA_TOPIC"
   val ETL_KAFKA_BROKER = "ETL_KAFKA_BROKER"
   val ETL_BATCH_DURATION = "ETL_BATCH_DURATION"
   val ETL_DEST_FOLDER = "ETL_DEST_FOLDER"
