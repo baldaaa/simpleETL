@@ -30,7 +30,10 @@ The system should be able to recover from failures (e.g.  un-planned reboot) 
 You can assume the HDFS and KAFKA are always available.
 Recommended technologies to use: Apache Spark and Apache Camel.
 
-Implementation limitation:
+
+Implementation report:
+
+Limitation:
 1. The system able to write to host directory which is mount in system only(connector to remote directory via ssh and scp not implemented).
 
 To clean,compile,package or/and execute app use maven goals:
